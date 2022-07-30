@@ -1,5 +1,5 @@
-/* * * * * General CSS * * * * */
-*,
+
+ *,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -228,7 +228,7 @@ p {
   color: #fff;
   text-transform: uppercase;
 }
-.navbar ul li ::after{
+.navbar ul li  ::after{
   content: '';
   height: 3px;
   width: 100%;
@@ -238,7 +238,7 @@ p {
   bottom:-10px;
   transition: 0.5s;
 }
-.navbar ul li :hover::after{
+.navbar ul li :hover ::after{
   width: 100%;
 }
 .content{
@@ -292,3 +292,30 @@ button:hover span{
 button:hover {
   border: none;
 }
+.about{
+  height: auto;
+  width: auto;
+  background-color:#009688;
+  color: #fff;
+  padding: 10px;
+  border: solid 3px black;
+  margin: 0;
+background: rgba( 0, 150, 136, 0.65 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.about h1{
+  text-align: center;
+
+}
+#hp,#hp2 {
+  float: left;    
+   margin: 0 15px 0 0;
+  }
+#hp1  {
+    float: right;    
+     margin: 0 15px 0 0;
+    }
