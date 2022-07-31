@@ -1,9 +1,9 @@
 <?php
 function Retreive($username){
     $host = "localhost";
-	$user = "root";
-	$pass = "";
-	$dbname = "testdb";
+	$user = "mmccain3";
+	$pass = "mmccain3";
+	$dbname = "mmccain3";
 
     $password = md5($_POST['password']);
     $username = trim($_POST['username']);

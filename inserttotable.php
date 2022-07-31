@@ -1,9 +1,9 @@
 <?php
 function Insert($fname, $lname, $email, $username,$password){
     $host = "localhost";
-	$user = "root";
-	$pass = "";
-	$dbname = "testdb";
+	$user = "mmccain3";
+	$pass = "mmccain3";
+	$dbname = "mmccain3";
 
 	//create connection 
 	$conn = mysqli_connect($host, $user, $pass, $dbname);
@@ -27,6 +27,6 @@ function Insert($fname, $lname, $email, $username,$password){
     }
 
     echo "<br>User Successfully Registered Go Back To Login";
-    echo "<form action=\"register.html\"><br><button >Login</button> </form>";
+    echo "<form action=\"project3login.php\"><br><button >Login</button> </form>";
 }
 ?>

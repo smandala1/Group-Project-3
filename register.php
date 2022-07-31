@@ -50,8 +50,7 @@ include("inserttotable.php");
 
 
     Insert($fname, $lname, $email, $username,$pass);
-    echo "User Successfully Registered Go Back To Login";
-    echo "<form action=\"project3login.php\"><br><button >Login </button> </form>";
+
   
 }
     
