@@ -1,0 +1,142 @@
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.buttonbox{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#registration_form{
+    width: 30vw;
+    background-color: #e6ffff;
+    border: 3px solid #00e6e6;
+    border-right: 3px solid#00e6e6;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-radius: 15%;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+#registration_form label{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin: 5px;
+    margin-right: 0;
+}
+
+#registration_form input{
+    margin-left: 5%;
+    margin-top: auto;
+    background-color: #f2f2f2;
+}
+
+
+.div1 {
+    background-color: beige;
+    width:33%;
+   
+    float: right;
+    }
+
+.div2{
+    background-color: beige;
+    width:33%;
+    float: left;
+}
+
+.div3{
+    background-color: beige;
+    width:33%;
+    margin: 0 auto;
+}
+
+.prop{
+    background-color: beige;
+    border: 3px solid black;
+    margin-bottom: 0;
+    margin-top: 10px;
+    height: 25%;
+    border-radius: 10%;
+}
+
+img{
+    height: 100%;
+    width: 50%;
+    margin-top: 10px;
+    margin: 0 auto;
+    float:left;
+    border: 3px solid black;
+    border-top-left-radius: 9%;
+    border-bottom-left-radius: 9%;
+}
+
+.plus{
+    border-radius: unset;
+    width: unset;
+    height: unset;
+    height: 30px;
+   
+}
+
+#entryform{
+    clear: both;
+}
+
+#header{
+    display: inline;
+    word-spacing: 20px;
+    text-align: center;
+    color: turquoise;
+}
+
+#welcomemessage{
+    text-align: center;
+}
+
+h1, h3{
+    margin: 0px;
+    color: #00e6e6;
+}
+
+h6{
+   float: right;
+   text-decoration: underline;
+   color: #00e6e6;
+}
+
+#details{
+    background-color: aqua;
+    clear: both;
+    width: 80%;
+    border: 3px solid black;
+    text-align: center;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#detailpic{
+    width: 80%;
+    height: 50%;
+    border-radius: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+span{
+
+    color: turquoise;
+}
+
+
